@@ -1,0 +1,230 @@
+$bg_color: #FBF6F6; 
+$font-color: #504949; 
+ 
+@font-face { 
+    font-family: Cormorant; 
+    src: url(../fonts/Cormorant-Medium.ttf); 
+    font-weight: 500; 
+} 
+@font-face{ 
+    font-family: Cormorant; 
+    src: url(../fonts/Cormorant-Bold.ttf); 
+    font-weight: 700; 
+} 
+@font-face{ 
+    font-family: Cormorant; 
+    src: url(../fonts/Cormorant-Regular.ttf); 
+    font-weight: 400; 
+} 
+@font-face { 
+    font-family: Cormorant; 
+    src: url(../fonts/Cormorant-SemiBold.ttf); 
+    font-weight: 600; 
+} 
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box ; 
+} 
+a{ 
+    text-decoration: none; 
+    color: $font-color; 
+} 
+li{ 
+    list-style: none; 
+}
+hr{
+    margin-top: 25px;
+    width: 1170px;
+} 
+body{ 
+    font-family: Cormorant; 
+    color: $font-color; 
+    font-size: 18px; 
+    font-weight: 400; 
+} 
+.container{ 
+    max-width: 1170px; 
+    margin: 0 auto; 
+} 
+.header{ 
+    padding: 20px 0 ; 
+    margin-bottom: 146 px; ; 
+ 
+    &__menu{ 
+        display: flex; 
+        gap: 40px; 
+    } 
+    &__nav{ 
+        display: flex; 
+        justify-content: flex-end; 
+    } 
+   &__link{ 
+    font-weight: 400; 
+        &:hover{ 
+            font-weight: 700; 
+        } 
+    } 
+} 
+.main{ 
+    padding: 77px 0 122px 0; 
+    margin-bottom: 122px; 
+    &__text{ 
+        margin-bottom: 20px; 
+        &_bold{ 
+        font-weight: 7 00; 
+        margin-left: 107px; 
+        margin-bottom: 0; 
+        } 
+    } 
+    &__title{ 
+        font-weight: 600; 
+        font-size: 80px; 
+        margin-bottom: 5px; 
+    } 
+    &__box{ 
+        display: flex; 
+        gap: 79px; 
+    } 
+    &__block{ 
+        display: inline; 
+    } 
+    &__info{ 
+        &-row{ 
+            display: flex; 
+            gap: 40px; 
+        } 
+    } 
+    &__dig{ 
+        font-weight: 400; 
+        font-size: 50px; 
+        height: 61px; 
+        &_1{ 
+            width: 21px; 
+        } 
+        &_2{ 
+            width: 40px; 
+        } 
+        &_3{ 
+            width: 50px; 
+        } 
+    } 
+    &__subtitle{  
+        font-size: 40px; 
+        font-weight: 700; 
+        line-height: 44px; 
+        margin-bottom: 17px; 
+    } 
+    &__item{ 
+        max-width: 480px; 
+        margin-bottom: 10px; 
+        &_first{ 
+            display: flex; 
+            gap: 23px; 
+            align-items: flex-end; 
+            &::before{ 
+            content: '1'; 
+            font-size: 50px; 
+            line-height: 0.82; 
+            font-weight: 400; 
+            } 
+        } 
+        &_second{ 
+            display: flex; 
+            gap: 23px; 
+            align-items: flex-end; 
+            &::before{ 
+            content: '2'; 
+            font-size: 50px; 
+            line-height: 0.82; 
+            font-weight: 400; 
+            } 
+        } 
+        &_third{ 
+            display: flex; 
+            gap: 23px; 
+            align-items: flex-end; 
+            &::before{ 
+            content: '3'; 
+            font-size: 50px; 
+            line-height: 0  .82; 
+            font-weight: 400; 
+            } 
+        } 
+        &_fourth{ 
+            display: flex; 
+            gap: 23px; 
+            align-items: flex-end; 
+            &::before{ 
+            content: '4'; 
+            font-size: 50px; 
+            line-height: 0.82; 
+            font-weight: 400; 
+            } 
+        } 
+    } 
+    
+ 
+}
+.second{
+    background-color: #B59797;
+    width: 100%;
+    &__pink{
+        display: flex;
+    }
+    &__programm{
+        margin-bottom: 160px;
+    }
+    &__title{
+        color: #fff;
+        font-size: 80px;
+        line-height: 96px;
+    }
+    &__flex{
+        display: flex;
+        margin-top: 15px;
+    }
+    &__text{
+        width: 100px;
+        color: #fff;
+    }
+    &__plus{
+        color: #fff;
+       width: 100px;  
+       margin-left: 1050px; 
+    }
+    &__white{
+        background-color: #fff;
+        width: 1200px;
+        height: 1500px;
+        margin-left: 100px;
+            li::before{
+                src: url(../img/1.svg);
+            }
+            &__title{
+                font-family: Cormorant;
+                font-size: 80px;
+                font-weight: 600;
+                line-height: 96.88px;
+                text-align: left;
+                padding: 117px 0 27px 73px;
+
+            }
+            &__fstblock{
+                margin-left: 80px;
+                background-color:#B59797;
+                width: 560px;
+                height: 364px;
+            }
+            &__subtitle{
+                font-family: Cormorant;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                text-align: left;
+
+            }
+    }
+     
+}
+
